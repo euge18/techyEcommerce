@@ -9,13 +9,22 @@ import Login from "./Login";
 import Signup from "./Signup";
 import ForgotPassword from "./ForgotPassword";
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+import HomeErrors from "./HomeErrors";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header></Header>
         <Routes>
+          //Con errores solucionados
           <Route path="/" element={<Home />} />
+          //Con errores
+          <Route path="/errors" element={<HomeErrors />} />
+          //Mejoras
+          <Route path="/home1" element={<Home />} />
+          <Route path="/home2" element={<Home />} />
+          <Route path="/home3" element={<Home />} />
+          //Shop
           <Route path="/shop" element={<Shop />} />
           {/*<Route path="/single-product" element={<SingleProduct />} />
           <Route path="/checkout" element={<Checkout />} />

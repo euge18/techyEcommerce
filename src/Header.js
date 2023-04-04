@@ -32,7 +32,7 @@ function Header() {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                About Us
+                Sobre nosotros
               </a>
             </li>
 
@@ -47,7 +47,7 @@ function Header() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Pages.
+                Paginas
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
                 <li>
@@ -81,7 +81,7 @@ function Header() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Shop.
+                Tienda
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
                 <li>
@@ -112,7 +112,7 @@ function Header() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Account.
+                Cuenta
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
                 <li>
@@ -156,10 +156,10 @@ function Header() {
                   />
                 </a>
                 <div class="media-body">
-                  <h6>Ladies Bag</h6>
+                  <h6>Lentes Mirage</h6>
                   <div class="cart-price">
                     <span>1 x</span>
-                    <span>1250.00</span>
+                    <span>799.00</span>
                   </div>
                 </div>
                 <a href="#" class="remove">
@@ -176,10 +176,10 @@ function Header() {
                   />
                 </a>
                 <div class="media-body">
-                  <h6>Skinny Jeans</h6>
+                  <h6>Vestido Glam</h6>
                   <div class="cart-price">
                     <span>1 x</span>
-                    <span>1250.00</span>
+                    <span>1000.00</span>
                   </div>
                 </div>
                 <a href="#" class="remove">
@@ -191,10 +191,10 @@ function Header() {
                 <span class="total-price h6">$1799.00</span>
                 <div class="text-center cart-buttons mt-3">
                   <a href="#" class="btn btn-small btn-transparent btn-block">
-                    View Cart
+                    Ver carrito
                   </a>
                   <a href="#" class="btn btn-small btn-main btn-block">
-                    Checkout
+                    Finalizar compra
                   </a>
                 </div>
               </div>

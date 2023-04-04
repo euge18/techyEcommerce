@@ -24,22 +24,22 @@ function Footer() {
 
             <div class="col-md-6 col-lg-2 col-sm-6 mb-5 mb-lg-0 text-center text-sm-left">
               <div class="footer-widget">
-                <h4 class="mb-4">Category</h4>
+                <h4 class="mb-4">Categorías</h4>
                 <ul class="pl-0 list-unstyled mb-0">
                   <li>
-                    <a href="#">Men's Fashion</a>
+                    <a href="#">Indumentaria hombres</a>
                   </li>
                   <li>
-                    <a href="#">Women's Fashion</a>
+                    <a href="#">Indumentaria mujer</a>
                   </li>
                   <li>
-                    <a href="#">Kids Fashion</a>
+                    <a href="#">Indumentaria niños</a>
                   </li>
                   <li>
-                    <a href="#">Accessories</a>
+                    <a href="#">Accessorios</a>
                   </li>
                   <li>
-                    <a href="#">Shoe Collection</a>
+                    <a href="#">Zapatos</a>
                   </li>
                 </ul>
               </div>
@@ -47,22 +47,22 @@ function Footer() {
 
             <div class="col-md-6 col-lg-2 col-sm-6 mb-5 mb-lg-0 text-center text-sm-left">
               <div class="footer-widget">
-                <h4 class="mb-4">Useful Link</h4>
+                <h4 class="mb-4">Links utiles</h4>
                 <ul class="pl-0 list-unstyled mb-0">
                   <li>
-                    <a href="#">News &amp; Tips</a>
+                    <a href="#">Nuevos &amp; Tips</a>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <a href="#">Sobre nosotros</a>
                   </li>
                   <li>
-                    <a href="#">Support</a>
+                    <a href="#">Soporte</a>
                   </li>
                   <li>
-                    <a href="#">Our Shop</a>
+                    <a href="#">Nuestra tienda</a>
                   </li>
                   <li>
-                    <a href="#">Contact Us</a>
+                    <a href="#">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -70,20 +70,20 @@ function Footer() {
 
             <div class="col-md-6 col-lg-3 col-sm-6 text-center text-sm-left">
               <div class="footer-widget">
-                <h4 class="mb-4">Opening Hours</h4>
+                <h4 class="mb-4">Horarios</h4>
                 <ul class="pl-0 list-unstyled mb-5">
                   <li class="d-lg-flex justify-content-between">
-                    Monday-Friday <span>8.00-20.00</span>
+                    Lunes-Viernes <span>8.00-20.00</span>
                   </li>
                   <li class="d-lg-flex justify-content-between">
-                    Saturday <span>10.00-20.00</span>
+                    Sabados <span>10.00-20.00</span>
                   </li>
                   <li class="d-lg-flex justify-content-between">
-                    Sunday <span>12-20.00</span>
+                    Domingos <span>12-20.00</span>
                   </li>
                 </ul>
 
-                <h5>Call Now : +(000) 000-000</h5>
+                <h5>Llamanos : +(598) 91-343-464</h5>
               </div>
             </div>
           </div>

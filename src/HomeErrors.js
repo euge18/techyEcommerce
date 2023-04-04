@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-function Home() {
+function HomeErrors() {
   const navigate = useNavigate();
   return (
     <div className="home-container">
@@ -18,14 +18,14 @@ function Home() {
               <div class="col-lg-6 col-12 offset-lg-6 offset-md-6">
                 <div class="slider-caption">
                   <span class="lead">Trendy dress</span>
-                  <h1 class="mt-2 mb-5">
+                  <h4 class="mt-2 mb-5">
                     <span class="text-color">Winter </span>Collection
-                  </h1>
+                  </h4>
                   <a
                     href="#"
                     class="btn btn-main"
                     onClick={() => {
-                      navigate("/shop");
+                      alert("Error: No funciona ⚠️");
                     }}
                   >
                     Ver ahora
@@ -69,7 +69,11 @@ function Home() {
             </div>
             <div class="col-lg-4 col-sm-12 col-md-6">
               <div class="cat-item">
-                <img src="assets/images/cat-3.jpg" alt="" class="img-fluid" />
+                <img
+                  src="assets/images/cat-3.jpg"
+                  alt=""
+                  class="img-fluid img-error"
+                />
                 <div class="item-info">
                   <p class="mb-0">Zapatos</p>
                   <h4 class="mb-4">
@@ -184,7 +188,7 @@ function Home() {
                   <a href="/product-single">
                     <img
                       class="img-fluid w-100 mb-3 img-second"
-                      src="assets/images/322.jpg"
+                      src=""
                       alt="product-img"
                     />
                   </a>
@@ -259,7 +263,7 @@ function Home() {
                   <a href="#">
                     <img
                       class="img-fluid w-100 mb-3 img-second"
-                      src="assets/images/222.jpg"
+                      src=""
                       alt="product-img"
                     />
                   </a>
@@ -312,7 +316,7 @@ function Home() {
                 </div>
 
                 <div class="product-info">
-                  <h2 class="product-title h5 mb-0">
+                  <h2 class="product-title-error h5 mb-0">
                     <a href="#">Stylish dress</a>
                   </h2>
                   <span class="price">$99.00</span>
@@ -470,7 +474,7 @@ function Home() {
                 <div class="media mb-3">
                   <a class="featured-entry-thumb" href="#">
                     <img
-                      src="assets/images/p-3.jpg"
+                      src=""
                       alt="Product thumb"
                       width="64"
                       class="img-fluid mr-3"
@@ -571,7 +575,7 @@ function Home() {
                 <div class="media mb-3">
                   <a class="featured-entry-thumb" href="#">
                     <img
-                      src="assets/images/p-2.jpg"
+                      src=""
                       alt="Product thumb"
                       width="64"
                       class="img-fluid mr-3"
@@ -607,7 +611,7 @@ function Home() {
       </section>
       <section class="features border-top">
         <div class="container">
-          <div class="row">
+          <div class="">
             <div class="col-lg-3 col-sm-6 col-md-6">
               <div class="feature-block">
                 <i class="tf-ion-android-bicycle"></i>
@@ -650,4 +654,4 @@ function Home() {
     </div>
   );
 }
-export default Home;
+export default HomeErrors;

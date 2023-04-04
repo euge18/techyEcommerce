@@ -1065,6 +1065,16 @@ a.text-primary:hover {
   letter-spacing: 0.5px;
 }
 
+.product-title-error a {
+  color: #02fc2c;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.img-error {
+  width: 200px;
+}
+
 .product-info {
   text-align: center;
 }
