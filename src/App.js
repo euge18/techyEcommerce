@@ -10,6 +10,9 @@ import Signup from "./Signup";
 import ForgotPassword from "./ForgotPassword";
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import HomeErrors from "./HomeErrors";
+import HomeMasVendido from "./HomeMasVendidos";
+import HomeCarousell from "./HomeCarousell";
+import HomeOferta from "./HomeOferta";
 function App() {
   return (
     <div className="App">
@@ -21,9 +24,9 @@ function App() {
           //Con errores
           <Route path="/errors" element={<HomeErrors />} />
           //Mejoras
-          <Route path="/home1" element={<Home />} />
-          <Route path="/home2" element={<Home />} />
-          <Route path="/home3" element={<Home />} />
+          <Route path="/home1" element={<HomeMasVendido />} />
+          <Route path="/home2" element={<HomeCarousell />} />
+          <Route path="/home3" element={<HomeOferta />} />
           //Shop
           <Route path="/shop" element={<Shop />} />
           {/*<Route path="/single-product" element={<SingleProduct />} />
