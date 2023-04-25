@@ -17,7 +17,7 @@ function HomeCarousell() {
             <div class="row">
               <div class="col-lg-6 col-12 offset-lg-6 offset-md-6">
                 <div class="slider-caption">
-                  <span class="lead">Trendy dress</span>
+                  <span class="lead">Vestido de Moda</span>
                   <h1 class="mt-2 mb-5">
                     <span class="text-color">Colección </span>De Invierno
                   </h1>

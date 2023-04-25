@@ -47,7 +47,7 @@ function Header() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Paginas
+                Páginas
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
                 <li>
