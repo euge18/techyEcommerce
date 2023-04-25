@@ -19,7 +19,7 @@ function HomeOferta() {
                 <div class="slider-caption">
                   <span class="lead">Trendy dress</span>
                   <h1 class="mt-2 mb-5">
-                    <span class="text-color">Winter </span>Collection
+                    <span class="text-color">Colección </span>De Invierno
                   </h1>
                   <a
                     href="#"
@@ -28,7 +28,7 @@ function HomeOferta() {
                       navigate("/shop");
                     }}
                   >
-                    Ver ahora
+                    Comprar
                   </a>
                 </div>
               </div>

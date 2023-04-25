@@ -19,7 +19,7 @@ function HomeErrors() {
                 <div class="slider-caption">
                   <span class="lead">Trendy dress</span>
                   <h4 class="mt-2 mb-5">
-                    <span class="text-color">Winter </span>Collection
+                    <span class="text-color">Colección </span>De Invierno
                   </h4>
                   <a
                     href="#"
@@ -28,7 +28,7 @@ function HomeErrors() {
                       alert("Error: No funciona ⚠️");
                     }}
                   >
-                    Ver ahora
+                    Comprar
                   </a>
                 </div>
               </div>

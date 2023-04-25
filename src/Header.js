@@ -10,7 +10,7 @@ function Header() {
     >
       <div class="container">
         <Link class="navbar-brand font-weight-bold" to={{ pathname: "/" }}>
-          E-Shop
+          Tienda Online
         </Link>
         <button
           class="navbar-toggler"
